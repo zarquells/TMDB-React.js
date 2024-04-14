@@ -29,12 +29,20 @@
     Após a construção, fazemos o teste de rotas através do módulo 'Outlet':
   </p>
     <code> 'import { Outlet } from react-router-dom' </code>
-
+  
   <p> 
     Este módulo nos mostra quais páginas estamos acessando com um texto exibido no body da página atual. 
     Apesar de que podemos verificar isto com base no caminho da url também (rs).
   </p>
 
+  <p>
+    Após a construção de rotas, começamos a construir os componentes universais do projeto, isto é:
+    <ul>
+      <li> Header    </li>
+      <li> Navegator </li>
+      <li> Footer    </li>
+    </ul>
+  </p>
 
  P.S: Note que os arquivos estão em maioria anotados como '.jsx', isto pode facilitar para puxar comandos de acordo com a IDE 
  porém quando se trata do programa em si, não há diferença em relação a lógica podendo ser arquivos tanto '.js' ou '.jsx'.
