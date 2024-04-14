@@ -58,5 +58,30 @@
     Com as primeiras etapas do site tomando forma, iremos organizar a estilização global no 'index.css' para evitar problemas tardios...
     Verifique o arquivo para mais informações (rs).
   </p>
+
+  <p>
+    Continuando a configuração do nosso site, montamos o fetch API no componente 'Home' com os melhores filmes listados: 
+  </p>
+  
+    ```
+        const [topMovies, setTopMovies] = useState([]);
+      
+        const getTopRatedMovies = async (url) => {
+          const response = await fetch(url);
+          const data     = await response.json();
+      
+          setTopMovies(data.results);
+        }
+      
+        useEffect(() => {
+          const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
+      
+          getTopRatedMovies(topRatedUrl);
+        }, [])
+     ```
+
+  <p>
+    Usaremos este padrão devido a segurança e também para aprender melhor as ferramentas do React, como o UseEffect (que funciona como um DOMEventListener)
+  </p>
 P.S: Note que os arquivos estão em maioria anotados como '.jsx', isto pode facilitar para puxar comandos de acordo com a IDE 
 porém quando se trata do programa em si, não há diferença em relação a lógica podendo ser arquivos tanto '.js' ou '.jsx'.
