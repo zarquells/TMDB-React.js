@@ -40,17 +40,18 @@
     Nele teremos a seguinte configuração com importações de icons:
   </p>
   ```
-        <div>
-        <nav id="navbar">
-            <h2>
+<div>
+    <nav id="navbar">
+        <h2>
             <Link to='/'> <BiCameraMovie/> Movies</Link>
-            </h2>
-            <form>
-              <input type='text' placeholder='Pesquisar filmes'/>
-              <button type='submit'> <BiSearchAlt2/> </button>
-            </form>
-        </nav>
-        </div>
+        </h2>
+        <form>
+            <input type='text' placeholder='Pesquisar filmes'/>
+            <button type='submit'> <BiSearchAlt2/> </button>
+        </form>
+    </nav>
+</div>
+
   ```
 
  P.S: Note que os arquivos estão em maioria anotados como '.jsx', isto pode facilitar para puxar comandos de acordo com a IDE 
