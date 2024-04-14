@@ -28,11 +28,11 @@
   <p> 
     Após a construção, fazemos o teste de rotas através do módulo 'Outlet':
   </p>
-    <code> import { Outlet } from react-router-dom </code>
+    <code> 'import { Outlet } from react-router-dom' </code>
     <br>
     <code> //dentro do app.jsx return:</code>
     <br>
-    <code> "<Outlet />"</code>
+    <code> 'Outlet /' </code>
   <p> 
     Este módulo nos mostra quais páginas estamos acessando com um texto exibido no body da página atual. 
     Apesar de que podemos verificar isto com base no caminho da url também (rs).
