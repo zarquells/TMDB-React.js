@@ -40,6 +40,7 @@
     Nele teremos a seguinte configuração com importações de icons:
   </p>
   <code>
+        `
         <div>
         <nav id="navbar">
             <h2>
@@ -51,6 +52,7 @@
             </form>
         </nav>
         </div>
+        `
   </code>
 
  P.S: Note que os arquivos estão em maioria anotados como '.jsx', isto pode facilitar para puxar comandos de acordo com a IDE 
