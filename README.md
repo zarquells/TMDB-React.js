@@ -36,13 +36,22 @@
   </p>
 
   <p>
-    Após a construção de rotas, começamos a construir os componentes universais do projeto, isto é:
-    <ul>
-      <li> Header    </li>
-      <li> Navegator </li>
-      <li> Footer    </li>
-    </ul>
+    Após a construção de rotas, começamos a construir o componente do navbar, aonde teremos acesso a todas as funções do site.
+    Nele teremos a seguinte configuração com importações de icons:
   </p>
+  <code>
+        <div>
+        <nav id="navbar">
+            <h2>
+            <Link to='/'> <BiCameraMovie/> Movies</Link>
+            </h2>
+            <form>
+              <input type='text' placeholder='Pesquisar filmes'/>
+              <button type='submit'> <BiSearchAlt2/> </button>
+            </form>
+        </nav>
+        </div>
+  </code>
 
  P.S: Note que os arquivos estão em maioria anotados como '.jsx', isto pode facilitar para puxar comandos de acordo com a IDE 
  porém quando se trata do programa em si, não há diferença em relação a lógica podendo ser arquivos tanto '.js' ou '.jsx'.
