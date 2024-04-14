@@ -53,6 +53,17 @@
 </div>
 
   ```
-
+<div>
+    <nav id="navbar">
+        <h2>
+            <Link to='/'> <BiCameraMovie/> Movies</Link>
+        </h2>
+        <form>
+            <input type='text' placeholder='Pesquisar filmes'/>
+            <button type='submit'> <BiSearchAlt2/> </button>
+        </form>
+    </nav>
+</div>
+```
  P.S: Note que os arquivos estão em maioria anotados como '.jsx', isto pode facilitar para puxar comandos de acordo com a IDE 
  porém quando se trata do programa em si, não há diferença em relação a lógica podendo ser arquivos tanto '.js' ou '.jsx'.
