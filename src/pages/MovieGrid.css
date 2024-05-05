@@ -1,0 +1,64 @@
+/* serve para as páginas Home e Search por conta da estrutura */
+.contaneir{
+    .title{
+        color: rgb(255, 248, 239);
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 2rem 0 1rem;
+
+        .query-text{
+            color: #e6d27b;
+        }
+    }
+}
+
+.movies-contaneir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    div{
+        width: 30%;
+        color: rgb(255, 248, 239);
+        margin-bottom: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #111;
+        padding: 1rem;
+
+        img{
+            max-width: 100%;
+        }
+
+        img, p, h2{
+            margin-bottom: 1rem;
+        }
+
+        svg{
+            color:#e6d27b;
+        }
+
+        a{
+            background-color: #d6c370;
+            border: 2px solid #dfc555;
+            border-radius: 4px;
+            color: black;
+            padding: 0.8rem 0.3rem;
+            font-weight: bold;
+            font-size: larger;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        a:hover{
+            background-color: transparent;
+            color: #e6d27b;
+        }
+
+    }
+}

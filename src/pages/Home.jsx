@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../components/MovieCard";
 
-import "./MoviesGrid.css";
+import './MovieGrid.css';
 
+// importando variáveis de ambiente
 const moviesURL = import.meta.env.VITE_API;
 const apiKey    = import.meta.env.VITE_API_KEY;
 
@@ -24,6 +25,7 @@ const Home = () => {
 
     getTopRatedMovies(topRatedUrl);
   }, [])
+// favor documentar o código acima...
 
   return (
     <div className="contaneir">
