@@ -1,10 +1,42 @@
-# React + Vite
+# 🚀 Meu Segundo Projeto em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém meu segundo projeto desenvolvido em **React.js**, baseado no vídeo do canal [Hora de Codar](https://www.youtube.com/@MatheusBattisti). Para acelerar o desenvolvimento, utilizei o **Vite** como ferramenta de inicialização do projeto. ⚡
 
-Currently, two official plugins are available:
+## 🛠 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-  "a" 'a'
-_a_ :a:
+- **React.js** ⚛️
+- **Vite** ⚡
+- **JavaScript (ES6+)** 📜
+- **CSS3** 🎨
+
+## 📦 Como executar o projeto
+
+Siga os passos abaixo para rodar a aplicação localmente:
+
+1. **Clone o repositório** 📂
+   ```sh
+   git clone https://github.com/zarquells/TMDB-React.js
+   ```
+
+2. **Acesse o diretório do projeto** 📁
+   ```sh
+   cd TMDB-React.js
+   ```
+
+3. **Instale as dependências** 📦
+   ```sh
+   npm i
+   ```
+
+4. **Inicie o servidor de desenvolvimento** 🚀
+   ```sh
+   npm run dev
+   ```
+
+5. **Abra no navegador** 🌍
+   O projeto estará disponível em:
+   ```
+   http://localhost:5173
+   ```
+---
+💡 **Dica:** Caso tenha problemas ao rodar o projeto, verifique se o Node.js está atualizado! 🚀
